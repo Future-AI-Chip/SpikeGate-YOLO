@@ -8,7 +8,7 @@
 
 > **📢 Note:** This repository hosts the official PyTorch implementation of the paper **"SpikeGate-YOLO"**. 
 >
-> **The full source code, pretrained models, and configuration files will be publicly released immediately upon the acceptance of the paper.** We are currently finalizing the documentation and code cleanup to ensure reproducibility.
+> We are currently finalizing the documentation and code cleanup to ensure reproducibility.
 
 ## 📖 Introduction
 
@@ -42,21 +42,22 @@ We provide baseline results for both **Neuromorphic (Gen1)** and **Static (COCO 
 ### 1. Gen1 Automotive Dataset
 Performance comparison with varying model sizes and time steps ($T$).
 
-| Model | Params (M) | T | Power (mJ) | mAP@50 | mAP50:95 | Download |
+| Model | Params (M) | T | Power (mJ) | mAP@50 | mAP50:95 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| SpikeGate-YOLO-S | 18.2 | 4 | **9.8** | 67.2% | 41.7% | *Coming Soon* |
-| SpikeGate-YOLO-L | 31.6 | 1 | 4.7 | 64.4% | 39.9% | *Coming Soon* |
-| SpikeGate-YOLO-L | 31.6 | 2 | 8.8 | 66.3% | 41.5% | *Coming Soon* |
-| **SpikeGate-YOLO-L** | **31.6** | **4** | 14.1 | **69.3%** | **42.9%** | *Coming Soon* |
+| SpikeGate-YOLO-S | 18.2 | 4 | **9.8** | 67.2% | 41.7% |
+| SpikeGate-YOLO-L | 31.6 | 1 | 4.7 | 64.4% | 39.9% | 
+| SpikeGate-YOLO-L | 31.6 | 2 | 8.8 | 66.3% | 41.5% | 
+| **SpikeGate-YOLO-L** | **31.6** | **4** | 14.1 | **69.3%** | **42.9%** |
 
 ### 2. COCO 2017 Dataset
 
-| Model | Params (M) | T | mAP@50 | mAP50:95 | Download |
+| Model | Params (M) | T | mAP@50 | mAP50:95 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| SpikeGate-YOLO-S | 18.2 | 1 | 60.8% | 44.2% | *Coming Soon* |
-| **SpikeGate-YOLO-L** | **31.7** | **1** | **63.4%** | **46.3%** | *Coming Soon* |
+| SpikeGate-YOLO-S | 18.2 | 1 | 60.8% | 44.2% |
+| **SpikeGate-YOLO-L** | **31.7** | **1** | **63.4%** | **46.3%** |
 
 ## 🛠️ Usage
+
 
 ### Training
 ```bash
