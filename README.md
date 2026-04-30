@@ -26,7 +26,7 @@ To address the structural redundancy and temporal information loss in traditiona
 - **Energy Efficiency:** Reduces dynamic power consumption by **~24%** compared to SpikeYOLO, establishing a superior Pareto frontier between accuracy and energy cost.
 - **Strong Generalizability:** The proposed RSG and SpikeMDFH components are plug-and-play, demonstrating consistent improvements across different architectures (e.g., Spike-YOLOv5, Spike-ResNet).
 
-## 🚀 Installation & Requirements (Coming Soon)
+## 🚀 Installation & Requirements
 
 The code is built on PyTorch and SpikingJelly. Detailed installation instructions will be provided.
 
@@ -43,7 +43,7 @@ We provide baseline results for both **Neuromorphic (Gen1)** and **Static (COCO 
 Performance comparison with varying model sizes and time steps ($T$).
 
 | Model | Params (M) | T | Power (mJ) | mAP@50 | mAP50:95 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | SpikeGate-YOLO-S | 18.2 | 4 | **9.8** | 67.2% | 41.7% |
 | SpikeGate-YOLO-L | 31.6 | 1 | 4.7 | 64.4% | 39.9% | 
 | SpikeGate-YOLO-L | 31.6 | 2 | 8.8 | 66.3% | 41.5% | 
